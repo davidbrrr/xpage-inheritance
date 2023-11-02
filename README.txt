@@ -1,3 +1,13 @@
+This project demonstrates experience page inheritance in a Bloomreach brXM v15 project.
+The base project includes 2 channels, en_US and en_CA, with the "pages" folder defined in each.
+A "test1" page in en_US is accessible at http://localhost:8080/site/resourceapi/test1
+After applying the xpage inheritance, the same page is accessible in the en_CA channel at http://localhost:8080/site/en_CA/resourceapi/test1
+
+See this PR for the changes applied to enable the inheritance https://github.com/davidbrrr/xpage-inheritance/pull/1
+In essence they are:
+- A custom sitemapitem handler that returns the relative path to the common page.
+- The banner component is updated to use absolute paths to documents, so that documents can also be shared.
+
 Running Locally
 ===============
 

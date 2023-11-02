@@ -9,6 +9,7 @@ definitions:
             jcr:primaryType: hst:sitemapitem
             hst:componentconfigurationid: hst:pages/pagenotfound
             hst:relativecontentpath: pages/${1}
+            hst:sitemapitemhandlerids: [xpagehandler]
         /hst:abstractpages:
           jcr:primaryType: hst:pages
         /hst:pages:
@@ -21,6 +22,9 @@ definitions:
           jcr:primaryType: hst:sitemenus
         /hst:sitemapitemhandlers:
           jcr:primaryType: hst:sitemapitemhandlers
+          /xpagehandler:
+            jcr:primaryType: hst:sitemapitemhandler
+            hst:sitemapitemhandlerclassname: org.example.sitemap.XpageSiteMapItemHandler
         /hst:catalog:
           jcr:primaryType: hst:catalog
       /xpageinheritance:
