@@ -1,0 +1,6 @@
+definitions:
+  config:
+    /hippo:configuration/hippo:frontend/cms/cms-services/localeProviderService/en_CA:
+      jcr:primaryType: frontend:pluginconfig
+      country: ca
+      language: en

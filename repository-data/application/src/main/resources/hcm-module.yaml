@@ -1,0 +1,6 @@
+group:
+  name: xpage-inheritance
+  after: hippo-cms
+project: xpage-inheritance
+module:
+  name: xpage-inheritance-repository-data-application

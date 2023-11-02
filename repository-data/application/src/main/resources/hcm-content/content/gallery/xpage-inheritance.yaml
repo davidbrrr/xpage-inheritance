@@ -1,0 +1,7 @@
+/content/gallery/xpageinheritance:
+  jcr:primaryType: hippogallery:stdImageGallery
+  jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+  jcr:uuid: 38e45d98-ea9e-401d-81f6-c39376a310c8
+  hippo:name: XPage Inheritance
+  hippostd:foldertype: [new-image-folder]
+  hippostd:gallerytype: ['hippogallery:imageset']

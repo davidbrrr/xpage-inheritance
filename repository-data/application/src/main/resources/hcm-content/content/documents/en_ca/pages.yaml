@@ -1,0 +1,8 @@
+/content/documents/en_ca/pages:
+  jcr:primaryType: hippostd:folder
+  jcr:mixinTypes: ['hippostd:xpagefolder', 'hippotranslation:translated', 'mix:versionable']
+  jcr:uuid: 31f03ccb-7299-4523-8ece-9e871d7dde7f
+  hippostd:channelid: xpageinheritance-en_CA
+  hippostd:foldertype: [new-translated-folder, new-document]
+  hippotranslation:id: d7608682-3448-4a00-868d-506061f4bf81
+  hippotranslation:locale: en_CA

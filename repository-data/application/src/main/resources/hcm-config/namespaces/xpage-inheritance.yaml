@@ -1,0 +1,6 @@
+definitions:
+  config:
+    /hippo:namespaces/xpageinheritance:
+      jcr:primaryType: hipposysedit:namespace
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: b8351960-8a6a-4e5a-9594-40ab5c6b018f

@@ -1,0 +1,32 @@
+definitions:
+  config:
+    /hippo:configuration/hippo:translations/hippo:types/xpageinheritance:bannerdocument:
+      jcr:primaryType: hipposys:resourcebundles
+      /en:
+        jcr:primaryType: hipposys:resourcebundle
+        jcr:name: Banner
+        xpageinheritance:content: Content
+        xpageinheritance:image: Image
+        xpageinheritance:link: Link
+        xpageinheritance:title: Title
+      /nl:
+        jcr:primaryType: hipposys:resourcebundle
+        jcr:name: Banner
+        xpageinheritance:content: Inhoud
+        xpageinheritance:image: Afbeelding
+        xpageinheritance:link: Link
+        xpageinheritance:title: Titel
+      /fr:
+        jcr:primaryType: hipposys:resourcebundle
+        jcr:name: Bannière
+        xpageinheritance:content: Contenu
+        xpageinheritance:image: Image
+        xpageinheritance:link: Lien
+        xpageinheritance:title: Titre
+      /de:
+        jcr:primaryType: hipposys:resourcebundle
+        jcr:name: Banner
+        xpageinheritance:content: Inhalt
+        xpageinheritance:image: Abbildung
+        xpageinheritance:link: Link
+        xpageinheritance:title: Titel

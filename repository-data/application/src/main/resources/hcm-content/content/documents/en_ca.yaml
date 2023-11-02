@@ -1,0 +1,9 @@
+/content/documents/en_ca:
+  .meta:order-before: administration
+  jcr:primaryType: hippostd:folder
+  jcr:mixinTypes: ['hippo:named', 'hippotranslation:translated', 'mix:referenceable']
+  jcr:uuid: 38bc24bb-7c1e-451e-bb09-3dcd3a49475c
+  hippo:name: en_CA
+  hippostd:foldertype: [new-translated-folder, new-document]
+  hippotranslation:id: 9c5ed7cc-c30a-4b8f-9327-35623e15e202
+  hippotranslation:locale: en_CA

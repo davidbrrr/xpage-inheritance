@@ -1,0 +1,7 @@
+definitions:
+  config:
+    /hst:hst/hst:configurations/xpageinheritance-en_CA/hst:workspace/hst:channel:
+      .meta:residual-child-node-category: content
+      jcr:primaryType: hst:channel
+      hst:name: en_CA
+      hst:type: website

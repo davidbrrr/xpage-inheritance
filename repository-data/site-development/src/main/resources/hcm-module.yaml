@@ -1,0 +1,6 @@
+site: xpage-inheritance
+group: xpage-inheritance
+project: xpage-inheritance
+module:
+  name: xpage-inheritance-repository-data-site-development
+  after: xpage-inheritance-repository-data-site

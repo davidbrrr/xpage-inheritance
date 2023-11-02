@@ -1,0 +1,31 @@
+definitions:
+  config:
+    /hst:hst/hst:configurations:
+      /common:
+        jcr:primaryType: hst:configuration
+        /hst:sitemap:
+          jcr:primaryType: hst:sitemap
+          /_any_:
+            jcr:primaryType: hst:sitemapitem
+            hst:componentconfigurationid: hst:pages/pagenotfound
+            hst:relativecontentpath: pages/${1}
+        /hst:abstractpages:
+          jcr:primaryType: hst:pages
+        /hst:pages:
+          jcr:primaryType: hst:pages
+        /hst:components:
+          jcr:primaryType: hst:components
+        /hst:templates:
+          jcr:primaryType: hst:templates
+        /hst:sitemenus:
+          jcr:primaryType: hst:sitemenus
+        /hst:sitemapitemhandlers:
+          jcr:primaryType: hst:sitemapitemhandlers
+        /hst:catalog:
+          jcr:primaryType: hst:catalog
+      /xpageinheritance:
+        jcr:primaryType: hst:configuration
+        hst:inheritsfrom: [../common]
+      /xpageinheritance-en_CA:
+        jcr:primaryType: hst:configuration
+        hst:inheritsfrom: [../xpageinheritance]

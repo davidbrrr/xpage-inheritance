@@ -1,0 +1,9 @@
+/content/documents/en_us:
+  .meta:order-before: en_ca
+  jcr:primaryType: hippostd:folder
+  jcr:mixinTypes: ['hippo:named', 'hippotranslation:translated', 'mix:referenceable']
+  jcr:uuid: 026beb1e-7725-497d-bf8e-0ddd74537c18
+  hippo:name: en_US
+  hippostd:foldertype: [new-translated-folder, new-document]
+  hippotranslation:id: 996bcac5-86cf-49b5-a7a3-16a74863e814
+  hippotranslation:locale: en

@@ -1,0 +1,4 @@
+definitions:
+  config:
+    /hst:hst/hst:configurations/xpageinheritance/hst:components:
+      jcr:primaryType: hst:components

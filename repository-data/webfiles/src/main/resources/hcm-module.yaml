@@ -1,0 +1,5 @@
+group: 
+  name: xpage-inheritance
+project: xpage-inheritance
+module:
+  name: xpage-inheritance-repository-data-webfiles
